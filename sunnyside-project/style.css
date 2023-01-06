@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 1440px;
+}
+.header {
+  background-image: url(../desktop/image-header-1.jpg);
+  width: 100%;
+  height: 728px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  resize: both;
+  font-size: 50px;
+  overflow: both;
+  position: relative;
+}
+.navbar__container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#navbar__logo {
+  display: flex;
+  font-weight: bolder;
+  font-size: 90px;
+  padding: 30px 20px;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: start;
+  border: none;
+  float: left;
+}
+.navbar__menu {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  justify-content: end;
+  height: 80px;
+  margin-top: 35px;
+}
+.navbar__link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 40px 20px;
+  font-size: 60px;
+}
+.navbar__btn {
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 40px 20px;
+  color: #fff;
+}
+.button {
+  background-color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 30px;
+  font-size: 60px;
+  padding: 15px 25px;
+  font-weight: bold;
+}
+h1 {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.primary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 1440px;
+}
+.first {
+  grid-column: 1/2;
+}
+.second {
+  grid-column: 2/3;
+}
+.third {
+  grid-column: 1/2;
+}
+.fourth {
+  grid-column: 2/3;
+}
+.fifth {
+  grid-column: 1/2;
+}
+.sixt {
+  grid-column: 2/3;
+}
+.secondary #img {
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.secondary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.small {
+  grid-column: 1/2;
+}
+.medium {
+  grid-column: 2/3;
+}
+.large {
+  grid-column: 3/4;
+}
+.tertiary {
+  display: flex;
+}
